@@ -1,0 +1,219 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) i.fa {
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+    width: 21px;
+}
+
+
+.page-header-image::before {iframe {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+}
+    position: relative;
+    content: '';
+    background-color: white;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+iframe {
+    width: 800px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: white;
+    display:block;
+}
+
+.page-header-image {
+    background-color: white;
+}
+
+.text-header {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 0.75em;
+    text-align: center;
+}
+
+#home {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#main-title {
+    font-size: 8em;
+    font-weight: 500;
+    color: black;
+}
+
+#sub-title {
+    font-size: 3em;
+}
+
+#team-image {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+#team-content {
+    text-align: center;
+    margin: 0;
+}
+
+.game {
+    width: 100px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Extra small devices (phones, 600px and down) */
+    #main-title {
+        font-size: 5em;
+    }
+    .card-title {
+        font-size: 1.75em;
+    }
+    #name {
+        font-size: 1.65em;
+    }
+    #job-title {
+        font-size: 0.75em;
+    }
+    #team {
+        font-size: 2em;
+    }
+    #visit {
+        font-size: 2em;
+    }
+}
+
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  
+  .modal-content {
+    background-color: #888;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #fefefe;
+    width: 60%;
+    color: white;
+  }
+  
+  /* The Close Button */
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus {
+    color: #fefefe;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    background-color: #B22222;
+    color: white;
+  }
+  
+  .modal-footer {
+    background-color: #B22222;
+    color: white;
+  }
+  
+  /* Modal2 Content */
+  
+  .modal2-content {
+    background-color: rgb(238, 234, 234);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #fefefe;
+    width: 60%;
+    color: blue;
+  }
+  
+  /* The Close Button */
+  
+  .close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover, .close:focus {
+    color: #fefefe;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal2-header {
+    background-color: rgb(34, 56, 178);
+    color: white;
+  }
+  
+  .modal2-footer {
+    background-color: rgb(34, 120, 178);
+    color: white;
+  }
+  
+  
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
